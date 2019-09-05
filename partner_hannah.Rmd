@@ -1,0 +1,7 @@
+Hannah Lo
+
+* halo-ds
+* 5aaa074 : commit ID
+* She commited everything. Her three most important ways she organizes and interesting fact.
+* I was able to knit her markdown. 
+* One thing we struggled with was pushing to the repository because we did not realize that we did not add and commit after we made more changes. 
