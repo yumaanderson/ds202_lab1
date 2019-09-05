@@ -1,0 +1,18 @@
+---
+title: "owner_YumaAnderson"
+output: html_document
+---
+
+Yuma Anderson
+
+At parties, I tell people I am interested in data and communications.
+
+__The three most important ways I organize my work are:__
+
+* using a planner
+* keeping a calendar
+* cleaning my computer files
+
+__Interesting fact about myself:__
+I was in a Smithsonian traveling exhibit and a documentary.
+  
