@@ -1,0 +1,6 @@
+Yuma Anderson @yumaanderson
+* Hannah made her initial commit
+* ID: 1c26188
+
+ No errors when I knitted Hannah's owner rmd file
+ I encountered some difficulty at the beginning of this lab, trying to push my files onto the repository.
