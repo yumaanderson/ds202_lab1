@@ -15,4 +15,55 @@ __The three most important ways I organize my work are:__
 
 __Interesting fact about myself:__
 I was in a Smithsonian traveling exhibit and a documentary.
+
+1. Git is a tool that allows you to control different revisions of your code while Github is a service that allows you to collaborate on code.
+
+2. Git can be used independently from Github. We use Git and Github together so we can share our work and collaborate with our classmates. The advantages to using Github are: easy collaboration, works quickly, showcases your code to future employers, and the code revision documentation is an effective way to track and organize projects. A disadvantage is that not all of the features on Github are free and it has a bit of a learning curve.
+
+3. A repository can hold code, images, text, and is a way to manage a set of files or a project. You can make a repository of your current directory by this command:
+
+```
+mkdir [filename]
+cd [filename]
+git init
+    ```
   
+1. 
+```{r}
+X = c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)
+y = sum(is.na(X))
+print(y)
+    ```
+2. 
+```{r}
+age = c(25,30,45,60,12,41)
+smoker = c('T','F','T','F','F','F')
+weight = c(120,137,0,168,91,142)
+example_data = data.frame(age,smoker,weight)
+example_data[3,3] = 150
+print(example_data)
+```
+3. 
+```{r}
+NA_ratio = function(x){
+return(mean(is.na(x)))
+}
+divide_by_total = function(x){
+  return(x / sum(x, na.rm = TRUE))
+}
+NA_ratio(X)
+divide_by_total(X)
+```
+4. 
+```{r}
+a = c(1,NA,NA,NA)
+b = c(NA,3,NA,NA)
+both_na = function(x,y){
+  df = data.frame(x,y)
+  return(nrow(subset(df, is.na(x) & is.na(y))))
+}
+both_na(a,b)
+```
+
+    
+    
